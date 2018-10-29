@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+video {
+  max-width: 100%;
+  display: block;
+}
+.video-wrapper {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto; /* Take the height of the video */
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  background-color: transparent;
+}
+.text-content h1 {
+	font-family: 'Abel', sans-serif;
+	font-size: 60px;
+}
+/* :root {
+  --button-height: 60px;
+}
+
+.Button {
+  background: 4px solid white;
+  border: none;
+  display: inline-block;
+  height: var(--button-height);
+  overflow: hidden;
+  padding: 0 40px;
+  position: relative;
+} */
+
+.Button,
+svg {
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+/*#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    background-size: cover;
+}*/
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
