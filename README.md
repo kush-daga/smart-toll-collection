@@ -24,4 +24,4 @@ Right now we are using stock photos for testing out our application which you ca
 Visit the website for more information after running it locally.
 
 Screenshots :
-![1](../../screenshots/1.png)
+![1](../screenshots/1.png)
