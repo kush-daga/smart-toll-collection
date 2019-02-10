@@ -35,7 +35,7 @@ def main():
     # rgb_im = im.convert("RGB")
     # rgb_im.save("LicPlateImages/6.png", "PNG")
     print(os.listdir())
-    imgOriginalScene = cv2.imread("LicPlateImages/2.png")  # open image 
+    imgOriginalScene = cv2.imread("LicPlateImages/1.png")  # open image 
     # cv2.imshow("imgOriginalScene", imgOriginalScene)
     # os.system("pause")
     if imgOriginalScene is None:  # if image was not read successfully
