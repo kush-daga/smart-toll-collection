@@ -24,4 +24,4 @@ Right now we are using stock photos for testing out our application which you ca
 Visit the website for more information after running it locally.
 
 Screenshots :
-![Alt text](relative/screesnhots/1.png?raw=true "Title")
+![Alt text](/screesnhots/1.png?raw=true "Title")
