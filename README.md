@@ -1,4 +1,3 @@
+# smart-toll-collection
 
-# twitterNews
-This gets the latest hashtags on twitter india and shows the top news related to it.
-
+This is a computer vision project aiming in helping reduce traffic at the tolls
