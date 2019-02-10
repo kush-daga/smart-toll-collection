@@ -9,7 +9,7 @@ This is a computer vision project aiming in helping reduce traffic at the toll b
 
 The problem that we aim to address is the increasing amount of traffic in the tolls, even after the introduction of
 fasTag in India, still there is alot of traffic jams as there are only two lanes in most places and many non fasTag users
-also enter the lanes. We are proposing a solution to silve this issue.
+also enter the lanes. We are proposing a solution to solve this issue.
 
 # Technology Used
 
