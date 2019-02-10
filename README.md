@@ -24,4 +24,4 @@ Right now we are using stock photos for testing out our application which you ca
 Visit the website for more information after running it locally.
 
 Screenshots :
-![1](http://lmsotfy.com/so.png)
+![Screenshots https://imgur.com/a/1wyDP86](https://imgur.com/a/1wyDP86)
