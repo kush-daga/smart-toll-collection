@@ -1,6 +1,6 @@
 # smart-toll-collection
 This is a computer vision project aiming in helping reduce traffic at the toll booths.
-Team name: Noice
+<br />**Team name: Noice**
 # PROBLEM
 
 The problem that we aim to address is the increasing amount of traffic in the tolls, even after the introduction of
