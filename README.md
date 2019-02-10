@@ -2,7 +2,7 @@
 This is a computer vision project aiming in helping reduce traffic at the toll booths.
 <br />**Team name: Noice**
 <br />**Team members - Kush Daga(COE branch), Madhav Pareek(COE branch), Hemant Kumar Taneja(ENC branch)**
-<br />**Institute - Thapar Institute of Engineering and Technology **
+<br />**Institute - Thapar Institute of Engineering and Technology**
 
 # PROBLEM
 
