@@ -1,81 +1,223 @@
 <!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta content="IE=edge" http-equiv="X-UA-Compatible">
-  <meta content="width=device-width,initial-scale=1" name="viewport">
-  <meta content="description" name="description">
-  <meta name="google" content="notranslate" />
-  <meta content="Mashup templates have been developped by Orson.io team" name="author">
+<html>
+    <head>
+        <title>Smart Toll Collection</title>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, user-scalable=no"
+        />
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+    </head>
+    <body class="is-preload">
+        <!-- Header -->
+        <header id="header">
+            <a class="logo" href="index.html">Smart Toll Collection</a>
+            <nav>
+                <a href="#menu">Menu</a>
+            </nav>
+        </header>
 
-  <!-- Disable tap highlight on IE -->
-  <meta name="msapplication-tap-highlight" content="no">
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-icon-180x180.png">
-  <link href="/assets/favicon.ico" rel="icon">
+        <!-- Nav -->
+        <nav id="menu">
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="elements.html">Elements</a></li>
+                <li><a href="generic.html">Generic</a></li>
+                <li><a href="form.html">Fill The Form now</a></li>
+            </ul>
+        </nav>
 
-  <title>Title page</title>  
+        <!-- Banner -->
+        <section id="banner">
+            <div class="inner">
+                <h1>Smart Toll Collection</h1>
+                <p>
+                    The best solution for solving day to day toll hastle<br />
+                </p>
+            </div>
+            <video
+                autoplay
+                loop
+                muted
+                playsinline
+                src="images/banner.mp4"
+            ></video>
+        </section>
 
-<link href="/main.3f6952e4.css" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="/style.css">
-</head>
+        <!-- Highlights -->
+        <section class="wrapper">
+            <div class="inner">
+                <header class="special">
+                    <h1>Welcome</h1>
+                    <p style="font-size: 20px">
+                        This site will help you manage your tolls and would
+                        prevent you from waiting hours in the toll lines.<br />
+                        3 steps and you are good to go.
+                    </p>
+                </header>
+                <div class="highlights">
+                    <section>
+                        <div class="content">
+                            <header>
+                                <a href="#" class="icon fa-vcard-o"
+                                    ><span class="label">Icon</span></a
+                                >
+                                <h3>Register</h3>
+                            </header>
+                            <p>
+                                Register yourself by filling a simple form in
+                                the comfort of your home which is free to fill
+                                and will register you in our database.
+                            </p>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="content">
+                            <header>
+                                <a href="#" class="icon fa-files-o"
+                                    ><span class="label">Icon</span></a
+                                >
+                                <h3>Documents</h3>
+                            </header>
+                            <p>
+                                A scannned copy of your car RC and your driving
+                                license is what we require from you. It's that
+                                simple!
+                            </p>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="content">
+                            <header>
+                                <a href="#" class="icon fa-floppy-o"
+                                    ><span class="label">Icon</span></a
+                                >
+                                <h3>Save</h3>
+                            </header>
+                            <p>
+                                Save your data and enjoy travelling freely
+                                without the hastle of stopping at tolls and
+                                jams.
+                            </p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
 
-<body class="minimal">
-	<!-- <div id="site-border-left"></div>
-	<div id="site-border-right"></div>
-	<div id="site-border-top"></div>
-	<div id="site-border-bottom"></div> -->
+        <!-- CTA -->
+        <section id="cta" class="wrapper">
+            <div class="inner">
+                <h1>About</h1>
+                <p style="font-size: 18px">
+                    The project is aimed at providing fast and comfortable
+                    journey to users, and provide them monthly bills for their
+                    toll payments. We use state of the art technology like
+                    Computer Vision and OCR (optical character recognition) to
+                    detect the license plates of the users in the toll plaza and
+                    automatically update the database mentioning the user
+                    transaction.
+                </p>
+            </div>
+        </section>
+        <!-- data -->
+        <section class="wrapper">
+            <div class="inner">
+                <header class="special">
+                    <h2>Your recognized data</h2>
+                </header>
+                <div class="testimonials">
+                    <section>
+                        <div class="content">
+                            <blockquote>
+                                <p>Number recognized is : {{ a }}</p>
+                            </blockquote>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonials -->
+        <section class="wrapper">
+            <div class="inner">
+                <header class="special">
+                    <h2>Advantages</h2>
+                </header>
+                <div class="testimonials">
+                    <section>
+                        <div class="content">
+                            <blockquote>
+                                <p>
+                                    We have a robust framework which is free of
+                                    cost and has minimal set up cost.
+                                </p>
+                            </blockquote>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="content">
+                            <blockquote>
+                                <p>
+                                    Our technology is secure and there is no
+                                    chance of losing any product like cards, as
+                                    it's based on the vehicles number plate.
+                                </p>
+                            </blockquote>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="content">
+                            <blockquote>
+                                <p>
+                                    Our technology doesnt need any lane
+                                    dependence, it will work in all the toll
+                                    lanes and would help in managing traffic.
+                                </p>
+                            </blockquote>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
 
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="inner">
+                <div class="content">
+                    <section>
+                        <h3>Contact Us</h3>
+                        <p>
+                            Contact us for all your queries, we are present 24/7
+                            in your support.
+                            <br />
+                            Mail us or contact us via the details given here.
+                        </p>
+                    </section>
 
-	<!-- The video -->
-	<div class="video-wrapper">
-		<video autoplay muted loop id="myVideo">
-			<source src="/assets/videos/Traffic_disco.mov" type="video/mp4">
-		</video>
-		<div class="content">
-		<!-- Add your site or app content here -->
-			
-		
-		
-			<div class="hero-full-container background-image-container white-text-container">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-12">
-							<div class="hero-full-wrapper">
-								<div class="text-content">
-									<h1>Welcome,<br>
-										<span id="typed-strings">
-											<span>Let's make social media productive!<br></span>
-											<span>Let's be updated!<br></span>
-											<span>Let's make the world a better place!</span>
-										</span>
-										<span id="typed"></span>
-									</h1>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<a class="btn btn-primary" href="{{url_for('main.test')}}" role="button">Get Started</a>
+                    <section>
+                        <h4>We are there for all your doubts</h4>
+                        <ul class="plain">
+                            <li>
+                                <a href="#">Phone</a>
+                            </li>
+                            <li>
+                                <a href="#">Email</a>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </footer>
 
-
-		</div>
-	</div>
-
-	<!-- button -->
-		<!-- <button class="Button js-button">
-				Hover over me
-		</button> -->
-
-		<script>
-			document.addEventListener("DOMContentLoaded", function (event) {
-				type();
-				movingBackgroundImage();
-		});
-		</script>
-	<script type="text/javascript" src="/main.70a66962.js"></script>
-	<script type="text/javascript" src="/script.js"></script>
-</body>
-
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
