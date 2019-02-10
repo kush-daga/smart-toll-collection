@@ -1,6 +1,9 @@
 # smart-toll-collection
 This is a computer vision project aiming in helping reduce traffic at the toll booths.
 <br />**Team name: Noice**
+<br />**Team members - Kush Daga(COE branch), Madhav Pareek(COE branch), Hemant Kumar Taneja(ENC branch)**
+<br />**Institute - Thapar Institute of Engineering and Technology **
+
 # PROBLEM
 
 The problem that we aim to address is the increasing amount of traffic in the tolls, even after the introduction of
