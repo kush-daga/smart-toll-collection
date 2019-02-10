@@ -25,3 +25,9 @@ Visit the website for more information after running it locally.
 
 Screenshots :
 ![1](https://i.imgur.com/q3vUPzX.png)
+![2](https://i.imgur.com/rdhWDM6.png)
+![3](https://i.imgur.com/apqWjIN.png)
+![4](https://i.imgur.com/YOaOs0z.png)
+![5](https://i.imgur.com/LeSyrA9.jpg)
+![6](https://i.imgur.com/Hozv4TU.png)
+![7](https://i.imgur.com/MMTl7LQ.jpg)
