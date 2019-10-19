@@ -21,3 +21,4 @@ python-editor==1.0.3
 requests==2.21.0
 six==1.11.0
 Werkzeug==0.14.1
+Fully charged laptop
