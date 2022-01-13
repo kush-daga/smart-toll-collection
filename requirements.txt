@@ -15,7 +15,7 @@ MarkupSafe==1.0
 numpy==1.16.1
 opencv-python==4.0.0.21
 passlib==1.7.1
-Pillow==5.4.1
+Pillow==9.0.0
 python-dateutil==2.7.3
 python-editor==1.0.3
 requests==2.21.0
