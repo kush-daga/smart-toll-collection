@@ -12,7 +12,7 @@ itsdangerous==0.24
 Jinja2==2.10
 Mako==1.0.7
 MarkupSafe==1.0
-numpy==1.16.1
+numpy==1.22.0
 opencv-python==4.0.0.21
 passlib==1.7.1
 Pillow==5.4.1
